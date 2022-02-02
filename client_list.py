@@ -4,7 +4,7 @@ def main():
     
     n = 1
     for client in infile:
-        print(n, '.', client.rstrip('\n'), sep = '')
+        print(n, '.', ' ', client.rstrip('\n'), sep = '')
         n += 1
 
     infile.close()
